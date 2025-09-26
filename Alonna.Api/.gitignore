@@ -1,0 +1,47 @@
+# --- .NET build artifacts ---
+bin/
+obj/
+out/
+
+# --- IDE files (VS/Rider) ---
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# --- Logs & test output ---
+*.log
+Logs/
+TestResults/
+*.coverage
+*.coveragexml
+coverage*
+lcov.info
+
+# --- NuGet packages (rarely used with SDK-style, harmless to ignore) ---
+packages/
+*.nupkg
+*.snupkg
+
+# --- Publish output ---
+**/publish/
+**/PublishOutput/
+
+# --- Secrets (keep appsettings.json clean; use User Secrets or env vars) ---
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.p12
+.env
+.env.*
+
+# --- Static web assets (keep folder, ignore contents) ---
+wwwroot/*
+!wwwroot/.gitkeep
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
